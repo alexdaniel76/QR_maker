@@ -47,4 +47,4 @@ python main.py
 
 ## Лицензия
 
-Это приложение выпущено под лицензией MIT.
+Это приложение выпущено под [лицензией MIT](https://github.com/alexdaniel76/QR_maker/blob/main/LICENSE.md) .
