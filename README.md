@@ -15,8 +15,13 @@ https://www.python.org/downloads/
 Вы можете установить их с помощью pip, менеджера пакетов для Python, выполнив следующие команды в терминале:
 
 ```
-pip install tkinter
+pip install tk
 pip install qrcode
+```
+Или использовать requirements.txt
+
+```
+pip install -r requirements.txt
 ```
 
 ## Как использовать
