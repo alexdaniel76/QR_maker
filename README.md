@@ -1,43 +1,45 @@
-# QR Code Generator
+# Генератор QR-кода
 
-This is a simple Python application that generates a QR code based on the URL entered by the user. It uses the qrcode and tkinter libraries for generating the QR code and building the user interface, respectively.
+Это простое приложение на языке Python, которое генерирует QR-код на основе URL-адреса, введенного пользователем. Для создания QR-кода и построения пользовательского интерфейса используются библиотеки qrcode и tkinter соответственно.
 
-## Prerequisites
+## Предварительные требования
 
-Before running this application, you need to have Python 3.x installed on your machine. You can download Python from the official website: https://www.python.org/downloads/
+Перед запуском этого приложения убедитесь, что на вашем компьютере установлена Python 3.x. Вы можете загрузить Python с официального веб-сайта:
+https://www.python.org/downloads/
 
-Also, make sure you have the following Python libraries installed:
+Также убедитесь, что у вас установлены следующие библиотеки Python:
 
 - tkinter
 - qrcode
 
-You can install them using pip, the package installer for Python, by running the following commands in your terminal:
+Вы можете установить их с помощью pip, менеджера пакетов для Python, выполнив следующие команды в терминале:
 
 ```
 pip install tkinter
 pip install qrcode
 ```
 
-## How to use
+## Как использовать
 
-1. Clone this repository to your local machine.
-2. Navigate to the repository's directory.
-3. Run the following command in your terminal:
+1. Клонируйте этот репозиторий на ваш компьютер.
+2. Перейдите в каталог репозитория.
+3. Запустите следующую команду в терминале:
 
 ```
 python main.py
 ```
 
-4. The GUI for the QR Code Generator application should open.
-5. Enter the URL that you want to generate a QR code for.
-6. Click the "Создать" button to generate the QR code.
-7. The QR code will be displayed in the canvas below the input field.
-8. Click the "Сохранить" button to save the QR code as a JPEG or PNG file.
+4. Должен открыться графический интерфейс для генератора QR-кода.
+5. Введите URL-адрес, для которого нужно сгенерировать QR-код.
+6. Нажмите кнопку «Создать», чтобы сгенерировать QR-код.
+7. QR-код будет отображен на холсте под полем ввода.
+8. Нажмите кнопку «Сохранить», чтобы сохранить QR-код в формате JPEG или PNG.
 
-## How it works
 
-The application uses the QRCode class from the qrcode library to generate the QR code. The URL entered by the user is passed to the QRCode instance, which creates the QR code image. The image is then saved as a file and displayed in the tkinter Canvas widget.
+## Как это работает
 
-## License
+Приложение использует класс QRCode из библиотеки qrcode для генерации QR-кода. URL-адрес, введенный пользователем, передается экземпляру QRCode, который создает изображение QR-кода. Затем изображение сохраняется как файл и отображается в виджете Canvas библиотеки tkinter.
 
-This application is released under the MIT License.
+## Лицензия
+
+Это приложение выпущено под лицензией MIT.
